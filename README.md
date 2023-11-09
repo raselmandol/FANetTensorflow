@@ -3,7 +3,7 @@ Original Authors: Nikhil Kumar Tomar, Debesh Jha, Michael A. Riegler, Håvard D.
 <br/>
 Research paper: [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9741842](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9741842)
 </br>
-Tensorflow conv: Md. Rasel Mandol [raselmandol](https://github.com/raselmandol)
+Tensorflow conv: Md. Rasel Mandol [@raselmandol](https://github.com/raselmandol)
 
 ## Abstract
 <div align="justify">
