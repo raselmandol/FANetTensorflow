@@ -1,0 +1,67 @@
+
+2023-10-18 17:51:25.545408
+Dataset Size:
+Train: 880 - Valid: 120
+
+Dataset Size:
+Train: 880 - Valid: 120
+
+Hyperparameters:
+Image Size: (256, 256)
+Batch Size: 2
+LR: 0.0001
+Epochs: 500
+Optimizer: Adam
+Loss: BCE Dice Loss
+
+2023-10-18 17:52:40.571187
+Dataset Size:
+Train: 880 - Valid: 120
+
+Dataset Size:
+Train: 880 - Valid: 120
+
+Hyperparameters:
+Image Size: (256, 256)
+Batch Size: 2
+LR: 0.0001
+Epochs: 500
+Optimizer: Adam
+Loss: BCE Dice Loss
+
+2023-10-18 17:52:55.789722
+Dataset Size:
+Train: 880 - Valid: 120
+
+Dataset Size:
+Train: 880 - Valid: 120
+
+Hyperparameters:
+Image Size: (256, 256)
+Batch Size: 2
+LR: 0.0001
+Epochs: 500
+Optimizer: Adam
+Loss: BCE Dice Loss
+
+2023-10-20 10:15:42.176952
+Dataset Size:
+Train: 880 - Valid: 120
+
+Dataset Size:
+Train: 880 - Valid: 120
+
+2023-10-20 10:20:05.457389
+Dataset Size:
+Train: 880 - Valid: 120
+
+Dataset Size:
+Train: 880 - Valid: 120
+
+2023-10-20 10:22:43.004341
+Dataset Size:
+Train: 880 - Valid: 120
+
+Dataset Size:
+Train: 880 - Valid: 120
+
