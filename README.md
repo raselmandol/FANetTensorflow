@@ -1,7 +1,7 @@
 # FANet: A Feedback Attention Network for Improved Biomedical Image Segmentation
 Original Authors: Nikhil Kumar Tomar, Debesh Jha, Michael A. Riegler, Håvard D. Johansen, Dag Johansen, Jens Rittscher, Pål Halvorsen and  Sharib Ali
 <br/>
-Tensorflow conv: Md. Rasel Mandol [@raselmandol](https://github.com/raselmandol) </br>
+
 Research paper: [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9741842](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9741842)
 </br>
 
@@ -38,5 +38,6 @@ Please cite our paper if you find it useful:
 </pre>
 
 ## Contact
-For original model related questions: Please contact nikhilroxtomar@gmail.com and debesh@simula.no for any further questions. 
+For original model related questions: Please contact nikhilroxtomar@gmail.com and debesh@simula.no for any further questions. </br>
+Tensorflow conv: Md. Rasel Mandol [@raselmandol](https://github.com/raselmandol) </br>
 For tensorflow related questions: raselm@duck.com
