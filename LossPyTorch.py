@@ -7,11 +7,11 @@ class DiceLoss(nn.Module):
         super(DiceLoss, self).__init__()
         self.smooth = smooth
 
-    def forward(self, inputs, targets):
-        inputs = torch.sigmoid(inputs)
-        intersection = torch.sum(inputs * targets)
-        dice = (2. * intersection + self.smooth) / (torch.sum(inputs) + torch.sum(targets) + self.smooth)
-        return 1 - dice
+    # def forward(self, inputs, targets):
+    #     inputs = torch.sigmoid(inputs)
+    #     intersection = torch.sum(inputs * targets)
+    #     dice = (2. * intersection + self.smooth) / (torch.sum(inputs) + torch.sum(targets) + self.smooth)
+    #     return 1 - dice
 
 class DiceBCELoss(nn.Module):
     def __init__(self, smooth=1):
