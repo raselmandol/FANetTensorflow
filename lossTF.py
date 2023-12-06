@@ -7,16 +7,16 @@ class DiceLoss(tf.keras.losses.Loss):
         super(DiceLoss, self).__init__(name=name)
         self.smooth = smooth
 
-    def call(self, y_true, y_pred):
-        y_pred = K.sigmoid(y_pred)
+    # def call(self, y_true, y_pred):
+    #     y_pred = K.sigmoid(y_pred)
 
-        y_true = K.flatten(y_true)
-        y_pred = K.flatten(y_pred)
+    #     y_true = K.flatten(y_true)
+    #     y_pred = K.flatten(y_pred)
 
-        intersection = K.sum(y_true * y_pred)
-        dice = (2. * intersection + self.smooth) / (K.sum(y_true) + K.sum(y_pred) + self.smooth)
+    #     intersection = K.sum(y_true * y_pred)
+    #     dice = (2. * intersection + self.smooth) / (K.sum(y_true) + K.sum(y_pred) + self.smooth)
 
-        return 1 - dice
+    #     return 1 - dice
 
 
 class DiceBCELoss(tf.keras.losses.Loss):
