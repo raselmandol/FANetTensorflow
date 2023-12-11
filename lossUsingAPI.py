@@ -14,7 +14,7 @@ def dice_loss(y_true, y_pred, smooth=1):
     return 1 - dice_coefficient(y_true, y_pred, smooth)
 
 def dice_bce_loss(y_true, y_pred, smooth=1):
-    y_pred = K.sigmoid(y_pred)
+    y_pred = K.sigmoid(y_pred) #pred
     dice = dice_coefficient(y_true, y_pred, smooth)
     BCE = binary_crossentropy(y_true, y_pred)
     dice_bce = (0.5 * BCE) + (0.5 * (1 - dice))
